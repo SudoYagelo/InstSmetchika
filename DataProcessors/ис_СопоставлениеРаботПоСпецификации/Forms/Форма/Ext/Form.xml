@@ -1661,5 +1661,25 @@
 			</ToolTip>
 			<Action>ОбработатьПозицииСКешем</Action>
 		</Command>
+		<Command name="ВыгрузитьВExcelЧерезМакет" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить через макет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тестирование выгрузки через макет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ExportToSpreadsheet</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыгрузитьВExcelЧерезМакет</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
 	</Commands>
 </Form>
