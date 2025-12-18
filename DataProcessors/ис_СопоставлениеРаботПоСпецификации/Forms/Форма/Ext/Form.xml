@@ -250,6 +250,11 @@
 											</Button>
 										</ChildItems>
 									</Popup>
+									<Button name="РезультатыПодбораВыгрузитьВТабДок" id="269">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВыгрузитьВТабДок</CommandName>
+										<ExtendedTooltip name="РезультатыПодбораВыгрузитьВТабДокРасширеннаяПодсказка" id="270"/>
+									</Button>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="РезультатыПодбораРасширеннаяПодсказка" id="34"/>
@@ -1661,25 +1666,20 @@
 			</ToolTip>
 			<Action>ОбработатьПозицииСКешем</Action>
 		</Command>
-		<Command name="ВыгрузитьВExcelЧерезМакет" id="10">
+		<Command name="ВыгрузитьВТабДок" id="10">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузить через макет</v8:content>
+					<v8:content>Выгрузить в табличный документ</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Тестирование выгрузки через макет</v8:content>
+					<v8:content>Выгрузить в таб док</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Picture>
-				<xr:Ref>StdPicture.ExportToSpreadsheet</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>ВыгрузитьВExcelЧерезМакет</Action>
-			<Representation>TextPicture</Representation>
+			<Action>ВыгрузитьВExcel</Action>
 		</Command>
 	</Commands>
 </Form>
