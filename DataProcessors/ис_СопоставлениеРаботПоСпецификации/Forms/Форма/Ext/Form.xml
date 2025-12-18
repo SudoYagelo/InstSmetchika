@@ -1666,6 +1666,7 @@
 			</ToolTip>
 			<Action>ОбработатьПозицииСКешем</Action>
 		</Command>
+<<<<<<< HEAD
 		<Command name="ВыгрузитьВТабДок" id="10">
 			<Title>
 				<v8:item>
@@ -1681,5 +1682,7 @@
 			</ToolTip>
 			<Action>ВыгрузитьВExcel</Action>
 		</Command>
+=======
+>>>>>>> 908c00303b4f72676fec65bada8c78ff4a70a751
 	</Commands>
 </Form>
