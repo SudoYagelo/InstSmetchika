@@ -655,6 +655,9 @@
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РезультатДеревомЭтоРасходникКонтекстноеМеню" id="254"/>
 									<ExtendedTooltip name="РезультатДеревомЭтоРасходникРасширеннаяПодсказка" id="255"/>
+									<Events>
+										<Event name="OnChange">РезультатДеревомЭтоРасходникПриИзменении</Event>
+									</Events>
 								</CheckBoxField>
 								<InputField name="РезультатДеревомГоловнаяНоменклатура" id="207">
 									<DataPath>РезультатДеревом.ГоловнаяНоменклатура</DataPath>
