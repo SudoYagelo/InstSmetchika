@@ -600,11 +600,6 @@
 										<CommandName>Form.Command.ПеренестиВОбработку</CommandName>
 										<ExtendedTooltip name="ПеренестиВОбработкуРасширеннаяПодсказка" id="243"/>
 									</Button>
-									<Button name="ВыгрузитьВExcelЧерезМакет" id="266">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ВыгрузитьВExcelЧерезМакет</CommandName>
-										<ExtendedTooltip name="ВыгрузитьВExcelЧерезМакетРасширеннаяПодсказка" id="267"/>
-									</Button>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="РезультатДеревомРасширеннаяПодсказка" id="179"/>
