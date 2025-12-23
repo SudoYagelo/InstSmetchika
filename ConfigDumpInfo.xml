@@ -70,7 +70,7 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Command.СопоставлениеРаботПоСпецификации.CommandModule" id="fae8401b-fdfa-4c70-9b41-8317c3b14524.2" configVersion="d084d6c2e686011ac94c8d6e6a7efb998c986db9"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.Форма" id="3c5d1b23-d778-4980-85f2-f2b16c90de09" configVersion="293967af3d585be61e61726bd5900b5d26fe1485"/>
-		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.Форма.Form" id="3c5d1b23-d778-4980-85f2-f2b16c90de09.0" configVersion="4da82e710aca9ea0a8d99d40fe32662a0cc57d34"/>
+		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.Форма.Form" id="3c5d1b23-d778-4980-85f2-f2b16c90de09.0" configVersion="6d76869f217417bebb43a7d82133f9a1ff9b53d8"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.ФормаЗагрузки" id="c61c6fd5-179f-4b20-b83d-bdd83d3d003e" configVersion="b56e5e0514f966c27c1248f69e7e5037ce5b1237"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.ФормаЗагрузки.Form" id="c61c6fd5-179f-4b20-b83d-bdd83d3d003e.0" configVersion="ecfb66232e5a7fb0ddfb6d618da13a03b8272d1d"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.ObjectModule" id="5f5a4ae1-61b2-461e-a29b-dd0bbda6efab.0" configVersion="e17f043dbc353337e5959ec1b82edd16c3464fb7"/>

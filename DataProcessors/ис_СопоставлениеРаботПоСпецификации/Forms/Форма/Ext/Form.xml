@@ -250,6 +250,17 @@
 											</Button>
 										</ChildItems>
 									</Popup>
+									<Button name="РезультатыПодбораВыгрузитьВТабДок" id="269">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВыгрузитьВТабДок</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Выгрузить в табличный документ</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="РезультатыПодбораВыгрузитьВТабДокРасширеннаяПодсказка" id="270"/>
+									</Button>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="РезультатыПодбораРасширеннаяПодсказка" id="34"/>
@@ -1660,6 +1671,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбработатьПозицииСКешем</Action>
+		</Command>
+		<Command name="ВыгрузитьВТабДок" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить в таб док</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить в таб док</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьВExcel</Action>
 		</Command>
 	</Commands>
 </Form>
