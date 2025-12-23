@@ -611,6 +611,11 @@
 										<CommandName>Form.Command.ПеренестиВОбработку</CommandName>
 										<ExtendedTooltip name="ПеренестиВОбработкуРасширеннаяПодсказка" id="243"/>
 									</Button>
+									<Button name="ДобавитьВЖурнал" id="272">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьВЖурнал</CommandName>
+										<ExtendedTooltip name="ДобавитьВЖурналРасширеннаяПодсказка" id="273"/>
+									</Button>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="РезультатДеревомРасширеннаяПодсказка" id="179"/>
@@ -807,6 +812,32 @@
 									<ContextMenu name="РезультатДеревомПримечаниеКонтекстноеМеню" id="223"/>
 									<ExtendedTooltip name="РезультатДеревомПримечаниеРасширеннаяПодсказка" id="224"/>
 								</InputField>
+								<CheckBoxField name="РезультатДеревомДобавитьВЖурнал" id="266">
+									<DataPath>РезультатДеревом.ДобавитьВЖурнал</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Добавить в журнал</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="РезультатДеревомДобавитьВЖурналКонтекстноеМеню" id="267"/>
+									<ExtendedTooltip name="РезультатДеревомДобавитьВЖурналРасширеннаяПодсказка" id="268"/>
+								</CheckBoxField>
+								<CheckBoxField name="РезультатДеревомДобавленоВЖурнал" id="269">
+									<DataPath>РезультатДеревом.ДобавленоВЖурнал</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Добавлено в журнал</v8:content>
+										</v8:item>
+									</Title>
+									<ReadOnly>true</ReadOnly>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="РезультатДеревомДобавленоВЖурналКонтекстноеМеню" id="270"/>
+									<ExtendedTooltip name="РезультатДеревомДобавленоВЖурналРасширеннаяПодсказка" id="271"/>
+								</CheckBoxField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
@@ -1206,6 +1237,28 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это расходник</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ДобавитьВЖурнал" id="18">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавить в журнал</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ДобавленоВЖурнал" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавлено в журнал</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1686,6 +1739,26 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьВExcel</Action>
+		</Command>
+		<Command name="ДобавитьВЖурнал" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в журнал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить отмеченные позиции в журнал сопоставлений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьВЖурнал</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>

@@ -17,10 +17,10 @@
 			<Metadata name="Catalog.гк_КлассификаторВидовРабот.Attribute.СтатьяБДДС" id="a6d27a20-ec10-4196-9640-910b5034ff11"/>
 		</Metadata>
 		<Metadata name="CommonModule.ис_ЗаполнениеСпецификаций" id="2634178b-dca2-48d5-bb06-eaf24d5c7b20" configVersion="6b6a3ea86ffbed0344cadcacf405a8d9da6afcd6"/>
-		<Metadata name="CommonModule.ис_ЗаполнениеСпецификаций.Module" id="2634178b-dca2-48d5-bb06-eaf24d5c7b20.0" configVersion="d9e4ed1e4646646ee98c0045941982f0bb0b94fc"/>
+		<Metadata name="CommonModule.ис_ЗаполнениеСпецификаций.Module" id="2634178b-dca2-48d5-bb06-eaf24d5c7b20.0" configVersion="4f361ba73143e20ceccca5fbada3e00c0b274279"/>
 		<Metadata name="CommonModule.ис_НастройкиИнструментов" id="c95272c7-3b68-4984-9abe-74d4df726ad1" configVersion="da4a6ab94f6ea7a84d67f96f20aa03b9e80f92b1"/>
 		<Metadata name="CommonModule.ис_НастройкиИнструментов.Module" id="c95272c7-3b68-4984-9abe-74d4df726ad1.0" configVersion="b6bfb8008a91c451b1995daefc2351930cd33fc4"/>
-		<Metadata name="Configuration.ИнструментыСметчика" id="ac7e211f-fae1-4f2f-9af5-805c2b7f73f9" configVersion="e86c0fb4130076a509e0eeaf3db8bc5c6d9efeb1"/>
+		<Metadata name="Configuration.ИнструментыСметчика" id="ac7e211f-fae1-4f2f-9af5-805c2b7f73f9" configVersion="d5c3509f70b90699184df4cf38610e7273e77232"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации" id="5f5a4ae1-61b2-461e-a29b-dd0bbda6efab" configVersion="6567e597a0c0858e93fceef267d55e66e227acfc">
 			<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.TabularSection.РезультатыПодбора.Attribute.Позиция" id="02755969-feef-4f4f-8369-09e4b90e999f"/>
 			<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.TabularSection.РезультатыПодбора.Attribute.Количество" id="19b950f9-2b16-4f31-9b72-f2ed514de01c"/>
@@ -70,7 +70,7 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Command.СопоставлениеРаботПоСпецификации.CommandModule" id="fae8401b-fdfa-4c70-9b41-8317c3b14524.2" configVersion="d084d6c2e686011ac94c8d6e6a7efb998c986db9"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.Форма" id="3c5d1b23-d778-4980-85f2-f2b16c90de09" configVersion="293967af3d585be61e61726bd5900b5d26fe1485"/>
-		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.Форма.Form" id="3c5d1b23-d778-4980-85f2-f2b16c90de09.0" configVersion="6d76869f217417bebb43a7d82133f9a1ff9b53d8"/>
+		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.Форма.Form" id="3c5d1b23-d778-4980-85f2-f2b16c90de09.0" configVersion="122b50b02681948aba8da51bb4820c06695644f2"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.ФормаЗагрузки" id="c61c6fd5-179f-4b20-b83d-bdd83d3d003e" configVersion="b56e5e0514f966c27c1248f69e7e5037ce5b1237"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.Form.ФормаЗагрузки.Form" id="c61c6fd5-179f-4b20-b83d-bdd83d3d003e.0" configVersion="ecfb66232e5a7fb0ddfb6d618da13a03b8272d1d"/>
 		<Metadata name="DataProcessor.ис_СопоставлениеРаботПоСпецификации.ObjectModule" id="5f5a4ae1-61b2-461e-a29b-dd0bbda6efab.0" configVersion="e17f043dbc353337e5959ec1b82edd16c3464fb7"/>

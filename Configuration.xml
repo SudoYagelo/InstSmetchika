@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ис_ИспользованиеИнструментовСметчика</xr:Item>
 			</DefaultRoles>
 			<Vendor>А101</Vendor>
-			<Version>1.0.3.5</Version>
+			<Version>1.0.3.6</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
