@@ -613,6 +613,7 @@
 									</Button>
 									<Button name="ДобавитьВЖурнал" id="272">
 										<Type>CommandBarButton</Type>
+										<Visible>false</Visible>
 										<CommandName>Form.Command.ДобавитьВЖурнал</CommandName>
 										<ExtendedTooltip name="ДобавитьВЖурналРасширеннаяПодсказка" id="273"/>
 									</Button>
@@ -666,6 +667,9 @@
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РезультатДеревомЭтоРасходникКонтекстноеМеню" id="254"/>
 									<ExtendedTooltip name="РезультатДеревомЭтоРасходникРасширеннаяПодсказка" id="255"/>
+									<Events>
+										<Event name="OnChange">РезультатДеревомЭтоРасходникПриИзменении</Event>
+									</Events>
 								</CheckBoxField>
 								<InputField name="РезультатДеревомГоловнаяНоменклатура" id="207">
 									<DataPath>РезультатДеревом.ГоловнаяНоменклатура</DataPath>
@@ -812,28 +816,22 @@
 									<ContextMenu name="РезультатДеревомПримечаниеКонтекстноеМеню" id="223"/>
 									<ExtendedTooltip name="РезультатДеревомПримечаниеРасширеннаяПодсказка" id="224"/>
 								</InputField>
-								<CheckBoxField name="РезультатДеревомДобавитьВЖурнал" id="266">
+								<CheckBoxField name="РезультатДеревомДобавитьВЖурнал" id="274">
 									<DataPath>РезультатДеревом.ДобавитьВЖурнал</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Добавить в журнал</v8:content>
-										</v8:item>
-									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="РезультатДеревомДобавитьВЖурналКонтекстноеМеню" id="267"/>
-									<ExtendedTooltip name="РезультатДеревомДобавитьВЖурналРасширеннаяПодсказка" id="268"/>
+									<ContextMenu name="РезультатДеревомДобавитьВЖурналКонтекстноеМеню" id="275"/>
+									<ExtendedTooltip name="РезультатДеревомДобавитьВЖурналРасширеннаяПодсказка" id="276"/>
 								</CheckBoxField>
 								<CheckBoxField name="РезультатДеревомДобавленоВЖурнал" id="269">
 									<DataPath>РезультатДеревом.ДобавленоВЖурнал</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Добавлено в журнал</v8:content>
 										</v8:item>
 									</Title>
-									<ReadOnly>true</ReadOnly>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РезультатДеревомДобавленоВЖурналКонтекстноеМеню" id="270"/>
 									<ExtendedTooltip name="РезультатДеревомДобавленоВЖурналРасширеннаяПодсказка" id="271"/>
